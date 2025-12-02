@@ -1,0 +1,72 @@
+
+۱. یافتن برنامه‌های عمومی باگ بانتی:
+google
+inurl:/bug-bounty
+inurl:/security "bounty" OR "reward"
+inurl:/responsible-disclosure "bounty" OR "reward" OR "swag"
+inurl:/security-policy "bounty"
+"submit vulnerability report" "reward"
+"vulnerability disclosure policy" "bounty"
+"security vulnerability report" "reward"
+"responsible disclosure" "hall of fame"
+"white hat program" "reward"
+"bug bounty program" site:.*.*
+۲. یافتن فایل‌های security.txt (استاندارد IETF):
+google
+inurl:/.well-known/security.txt "contact"
+inurl:/security.txt "bounty" OR "reward"
+site:*.* security.txt "bounty"
+ext:txt "security" "contact" "bounty"
+۳. جستجوی جغرافیایی:
+google
+site:.nl "responsible disclosure" bounty
+site:.uk "bug bounty" program
+site:.eu "vulnerability disclosure" reward
+site:.de "bug bounty" verantwortungsvolle Offenlegung
+site:.fr "programme de bug bounty"
+site:.in "bug bounty" reward
+۴. پلتفرم‌های اختصاصی باگ بانتی:
+google
+"powered by bugcrowd" -site:bugcrowd.com
+"powered by hackerone" "report"
+"submit report" "hackerone"
+"synack" "red team" "bounty"
+"openbugbounty" "report"
+"intigriti" "bug bounty"
+"yeswehack" "program"
+۵. جستجوی هدف‌های خاص:
+google
+site:github.com "bug bounty" "policy"
+site:*.gov "vulnerability disclosure"
+site:*.mil "security" "report"
+site:*.org "responsible disclosure"
+site:*.edu "bug bounty"
+"private bug bounty" invite
+"invite-only" bug bounty
+۶. دورک‌های پیشرفته:
+google
+intext:"we appreciate your security report" 
+intext:"report a security vulnerability" "reward"
+filetype:pdf "bug bounty program" "scope"
+"security@*.*" "reward for vulnerabilities"
+inurl:/security "report" "bitcoin" OR "crypto"
+"bounty" "ETH" "security report"
+۷. جستجوی در پلتفرم‌های میزبانی:
+google
+site:*.atlassian.net "security"
+site:*.azurewebsites.net "report"
+site:*.cloudapp.azure.com "vulnerability"
+site:*.github.io "security" 
+site:*.herokuapp.com "bounty"
+نکات مهم برای استفاده:
+اصلاح دستی: برخی سایت‌ها ممکن است از ساختارهای متفاوتی استفاده کنند (مثلاً /security-center یا /trust-center).
+
+جستجوی ترکیبی: دورک‌ها را با site: ترکیب کنید:
+
+google
+site:apple.com "bug bounty"
+site:microsoft.com "responsible disclosure"
+حذف نتایج نامرتبط: با افزودن -کلمه نتایج ناخواسته را حذف کنید:
+
+google
+"bug bounty" -forum -blog -tutorial
